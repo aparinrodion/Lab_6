@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<citizens>
+    <citizen>
+        <name>Иван</name>
+        <surname>Петров</surname>
+        <city>Минск</city>
+        <street>Октябрьская</street>
+        <building>10</building>
+    </citizen>
+    <citizen>
+        <name>Антон</name>
+        <surname>Антонов</surname>
+        <city>Минск</city>
+        <street>Независимости</street>
+        <building>4</building>
+    </citizen>
+    <citizen>
+        <name>Семён</name>
+        <surname>Семёнов</surname>
+        <city>Город</city>
+        <street>Улица</street>
+        <building>6</building>
+    </citizen>
+</citizens>

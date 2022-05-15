@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<citizens>
+    <citizen>
+        <name>Пётр</name>
+        <surname>Петров</surname>
+        <city>Минск</city>
+        <street>Независимости</street>
+        <building>4</building>
+    </citizen>
+    <citizen>
+        <name>Пётр</name>
+        <surname>Петров</surname>
+        <city>Минск</city>
+        <street>Октябрьская</street>
+        <building>10</building>
+    </citizen>
+    <citizen>
+        <name>Павел</name>
+        <surname>Кирьянов</surname>
+        <city>Гродно</city>
+        <street>Уличная</street>
+        <building>22</building>
+    </citizen>
+</citizens>
