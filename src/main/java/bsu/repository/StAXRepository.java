@@ -1,7 +1,7 @@
-package repository;
+package bsu.repository;
 
-import RMI.RMIInterface;
-import model.CitizenAndAddress;
+import bsu.RMI.RMIInterface;
+import bsu.model.CitizenAndAddress;
 
 import javax.xml.stream.*;
 import javax.xml.stream.events.EndElement;

@@ -1,9 +1,8 @@
-package repository;
+package bsu.repository;
 
-import model.CitizenAndAddress;
+import bsu.model.CitizenAndAddress;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 
 public class CitizensUtil {

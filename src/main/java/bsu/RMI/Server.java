@@ -1,9 +1,7 @@
-package RMI;
+package bsu.RMI;
 
-import model.CitizenAndAddress;
-import repository.DatabaseRepository;
-import repository.JAXBRepository;
-import repository.StAXRepository;
+import bsu.model.CitizenAndAddress;
+import bsu.repository.StAXRepository;
 
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
@@ -25,14 +23,13 @@ public class Server extends UnicastRemoteObject implements RMIInterface {
      * @see String
      */
     public Server() throws RemoteException {
-        super();
-        //repository = new DatabaseRepository();
+        //bsu.repository = new DatabaseRepository();
         repository = new StAXRepository();
-        //repository = new JAXBRepository();
+        //bsu.repository = new JAXBRepository();
     }
 
     /**
-     * @return {@link List List} of CitizenAndAddress from repository
+     * @return {@link List List} of CitizenAndAddress from bsu.repository
      * @throws RemoteException remote method call exception
      */
     @Override

@@ -1,5 +1,6 @@
-import RMI.Server;
-import RMI.RMIInterface;
+package bsu;
+
+import bsu.RMI.RMIInterface;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -7,7 +8,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
-import model.CitizenAndAddress;
+import bsu.model.CitizenAndAddress;
 
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;

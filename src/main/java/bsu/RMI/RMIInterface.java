@@ -1,6 +1,6 @@
-package RMI;
+package bsu.RMI;
 
-import model.CitizenAndAddress;
+import bsu.model.CitizenAndAddress;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

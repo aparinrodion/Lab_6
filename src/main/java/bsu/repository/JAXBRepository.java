@@ -1,8 +1,8 @@
-package repository;
+package bsu.repository;
 
-import RMI.RMIInterface;
-import model.CitizenAndAddress;
-import model.Citizens;
+import bsu.RMI.RMIInterface;
+import bsu.model.CitizenAndAddress;
+import bsu.model.Citizens;
 import org.xml.sax.SAXException;
 
 import javax.xml.XMLConstants;
