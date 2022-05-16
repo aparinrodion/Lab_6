@@ -11,16 +11,15 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * <h1 style="color:green">BSU FAMCS</h1>
+ * <h2 style="color:green">LAB_6</h2>
  * @author Aparin Rodion
  * @see java.rmi.Remote
- * <b>LAB_7</b>
  */
 public class Server extends UnicastRemoteObject implements RMIInterface {
     private final RMIInterface repository;
     /**
      * @throws RemoteException remote method call exception
-     * adfaf {@link java.lang.String ssssssss} asdfas
-     * @see String
      */
     public Server() throws RemoteException {
         //bsu.repository = new DatabaseRepository();
@@ -29,7 +28,7 @@ public class Server extends UnicastRemoteObject implements RMIInterface {
     }
 
     /**
-     * @return {@link List List} of CitizenAndAddress from bsu.repository
+     * @return {@link List List} of {@link CitizenAndAddress CitizenAndAddress} from Repository
      * @throws RemoteException remote method call exception
      */
     @Override
@@ -38,7 +37,7 @@ public class Server extends UnicastRemoteObject implements RMIInterface {
     }
 
     /**
-     * @return {@link Map Map} where key is city name and value is its population
+     * @return {@link Map Map} where <i>key</i> is <b>city name</b> and <i>value</i> is its <b>population</b>
      * @throws RemoteException remote method call exception
      */
     @Override
@@ -56,6 +55,7 @@ public class Server extends UnicastRemoteObject implements RMIInterface {
     }
 
     /**
+     * <p>Method for adding CitizenAndAddress to repository</p>
      * @param citizenAndAddress citizen to add
      * @throws RemoteException remote method call exception
      */
@@ -65,6 +65,7 @@ public class Server extends UnicastRemoteObject implements RMIInterface {
     }
 
     /**
+     * <p>Method for deleting CitizenAndAddress from repository</p>
      * @param citizenAndAddress citizen to delete
      * @throws RemoteException remote method call exception
      */
